@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.box {
+    width: 478px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 131px;
+    margin-right: auto;
+    padding: 20px;
+    
+}
+table {
+    margin-top: 19px;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: 211px;
+}
+
+.email {
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    border-radius: 10px;
+    
+}
+
+.email::placeholder {
+    color: rgba(158, 158, 158, 1);
+}
+.button {
+    width: 100%;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid rgba(103, 86, 203, 1);
+    background-color:  rgba(103, 86, 203, 1);
+    margin-left: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+.password {
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    border-radius: 10px;
+    outline: none;
+}
+.email {
+    text-align: start;
+    outline: none;
+}
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.position-relative {
+    position: relative;
+}
